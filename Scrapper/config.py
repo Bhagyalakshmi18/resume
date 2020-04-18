@@ -1,3 +1,9 @@
+{
+ "cells": [],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
 
-Username = "mounika20vancha@gmail.com"
-Password = "3000series"
+username = "mounika20vancha@gmail.com"
+password = "3000series"
