@@ -43,3 +43,33 @@ __Logging in by passing username and password__
     passwd.send_keys('xxxxxxxx')         #Pass your PASSWORD here
     
 Searching for required role, location, Page urls, Profile links and Downloading pdfs are mentioned in the .ipynb file
+
+# Data Cleaning
+
+Extracting data from the resumes downloaded and removing unwanted data. Categorizing data into dataframes and storing in a Comma Separated Values(CSV) file.
+
+__Prerequisite Installations__
+
+        pip install slate3k
+        pip install pandas
+
+ __1. slate3k:__ slate is a Python package that simplifies the process of extracting text from PDF files. It depends on the PDFMiner package. Slate provides one class, PDF. PDF takes a file-like object and will extract all text from the document, presentating each page as a string of text.
+ 
+ __2. pandas:__ pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with structured and time series data both easy and intuitive. For data scientists, working with data is typically divided into multiple stages: munging and cleaning data, analyzing / modeling it, then organizing the results of the analysis into a form suitable for plotting or tabular display. pandas is the ideal tool for all of these tasks.
+
+__Importing Packages__
+        
+        import slate3k as slate
+        import pandas as pd
+        import warnings
+        import re
+ 
+ ### Process done:
+ 
+ 1. Replacing unwanted characters with space
+ 2. Removing punctuation
+ 3. Filtering people with Masters/PhD degree as we need only those people for a Data Scientist role
+ 4. Filtering total experience of people and storing in a new column 
+ 5. Extracting Contact with either Email/github link/Phone number
+ 6. Creating Candidate name for each of the extracted person information
+ 7. Reading all the data into csv file
