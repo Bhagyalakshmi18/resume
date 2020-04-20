@@ -12,13 +12,13 @@ __Our process: Posting a Job Description ---> Uploading Resumes ---> Performing 
 
 This Repository contains:
 
-1. Linkedin_Resume_Scraper - Scrapes the Linkedin Resumes by taking a list of LinkedIn user URLs as an input. It will visit each profile on your behalf and extract every single piece of publicly available data from it and collects the resumes.
-2. Pdf_extract_cleaning - Cleaning the data by removing stopwords and unnecessary words and punctuations. Extracting the data into dataframes and storing into .csv file
+1. __Linkedin_Resume_Scraper -__ Scrapes the Linkedin Resumes by taking a list of LinkedIn user URLs as an input. It will visit each profile on your behalf and extract every single piece of publicly available data from it and collects the resumes.
+2. __Pdf_extract_cleaning -__ Cleaning the data by removing stopwords and unnecessary words and punctuations. Extracting the data into dataframes and storing into .csv file
 
 ## Development Environment:
 
-1.  OS: Windows 10 64-bit
-2.	Libraries: spaCy, nltk, Numpy, Pandas
-3.	Programming language: Python 3.6 
-4.	Framework: Django 
-5.	Development Environment: Jupyter Notebook
+1.  __OS:__ Windows 10 64-bit
+2.	__Libraries:__ spaCy, nltk, Numpy, Pandas
+3.	__Programming language:__ Python 3.6 
+4.	__Framework:__ Django 
+5.	__Development Environment:__ Jupyter Notebook
