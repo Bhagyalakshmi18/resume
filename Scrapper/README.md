@@ -73,3 +73,5 @@ __Importing Packages__
  5. Extracting Contact with either Email/github link/Phone number
  6. Creating Candidate name for each of the extracted person information
  7. Reading all the data into csv file
+
+# Building Model
