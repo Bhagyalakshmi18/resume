@@ -18,7 +18,7 @@ This Repository contains:
 ## Development Environment:
 
 1.  __OS:__ Windows 10 64-bit
-2.	__Libraries:__ spaCy, nltk, Numpy, Pandas
+2.	__Libraries:__ spaCy, nltk, Numpy, Pandas, slate3k
 3.	__Programming language:__ Python 3.6 
 4.	__Framework:__ Django 
 5.	__Development Environment:__ Jupyter Notebook
