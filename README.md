@@ -6,7 +6,9 @@ A web application designed for Hiring Managers powered by Natural Language Proce
 
 More than 90% of large companies use Applicant Tracking Systems. This analyzer is one such system that are meant to take some of the workload off the recruiter, so they try to mimic the human process. A model that analyzes resumes to surface top candidates that match the position. We have researched the top systems and built our algorithm based on Natural Language Processing(NLP). When a recruiter or hiring manager receives a stack of resumes, he or she won’t likely have the time to read each one thoroughly. So, they can search for keywords related to the position they are looking to fill. This project makes the searching much easier and automated to save time and avoid any oversights or human error. 
 
-__Our process: Posting a Job Description ---> Uploading Resumes ---> Performing Pattern Matching Model ---> Surface top 10 candidates__
+__Our process:__
+
+Posting a Job Description ---> Uploading Resumes ---> Performing Pattern Matching Model ---> Surface top 10 candidates__
 
 ## Repository Structure:
 
