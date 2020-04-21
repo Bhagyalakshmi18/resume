@@ -69,7 +69,7 @@ __Importing Packages__
  1. Replacing unwanted characters with space
  2. Removing punctuation
  3. Filtering people with Masters/PhD degree as we need only those people for a Data Scientist role
- 4. Filtering total experience of people and storing in a new column 
+ 4. Extracting total experience of people and storing in a new column 
  5. Extracting Contact with either Email/github link/Phone number
  6. Creating Candidate name for each of the extracted person information
  7. Reading all the data into csv file
