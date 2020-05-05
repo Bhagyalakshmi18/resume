@@ -16,6 +16,7 @@ This Repository contains:
 
 1. __Linkedin_Resume_Scraper -__ Scrapes the Linkedin Resumes by taking a list of LinkedIn user URLs as an input. It will visit each profile on your behalf and extract every single piece of publicly available data from it and collects the resumes.
 2. __Pdf_extract_cleaning -__ Cleaning the data by removing stopwords and unnecessary words and punctuations. Extracting the data into dataframes and storing into .csv file
+3. __Pattern_Matching -__ Building the model using spacy’s PhraseMatcher and filtering top 10 candidates with the help of pandas library.
 
 ## Development Environment:
 
