@@ -1,5 +1,9 @@
 ## Building Model
 
+__PhraseMatcher:__ Several PhraseMatcher methods are provided by spaCy. The method we used in this project is add.
+
+PhraseMatcher.add: This method adds a standard to the matcher, that comprises of an ID key, at least one pattern, and also a callback capacity to follow up on the matches. This function will get the contentions matcher, i, doc and matches. In the event that a pattern as of now exists for given ID, these examples will be broadened. An on_match callback will be overwritten.
+
 __Prerequisite Installations__
 
 	pip install -U spacy
