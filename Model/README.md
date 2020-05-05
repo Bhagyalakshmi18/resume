@@ -2,8 +2,8 @@
 
 __Prerequisite Installations__
 
-pip install -U spacy
-python -m spacy download en_core_web_sm
+	pip install -U spacy
+	python -m spacy download en_core_web_sm
 
 
 __Importing Packages__
